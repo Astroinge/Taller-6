@@ -19,3 +19,5 @@ m_solucion = np.array([5, 17])
 
 m = np.linalg.solve(A,m_solucion)
 print (m)
+
+
