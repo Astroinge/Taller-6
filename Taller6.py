@@ -12,3 +12,10 @@ B = np.array ([[2,0],[1,3]])
 C = np.dot(A,B)
 
 print(C)
+
+#solucion de un sistema de ecuaciones con numpy
+
+m_solucion = np.array([5, 17])
+
+m = np.linalg.solve(A,m_solucion)
+print (m)
